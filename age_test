@@ -1,0 +1,7 @@
+import unittest
+
+class AgeTestCase(unittest.TestCase):
+    def test_something(self):
+        self.assertEqual(65, 65)
+
+test_something(60)
